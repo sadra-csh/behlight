@@ -49,6 +49,7 @@ header section .buttons a{
 /* slider */
 
 .slider{
+    
     position: relative;
     font-size: 1em;
 }
@@ -104,4 +105,14 @@ header section .buttons a{
 
 .slider .buttons .b-active{
     color: #99A4BE;
+}
+
+footer{
+    background-color: #99A4BE;
+    
+}
+footer p{
+    color: whitesmoke;
+    top: 1px;
+    font-size: 2em;
 }
