@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>behlight</title>
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/animations.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-right">
+                <a href="#"><i class="fa-solid fa-house"></i></a>
+                <a href="./about-us.html"><b>درباره ما</b></a>
+                <a href="./contact-us.html"><b>ارتباط با ما</b></a>
+                <a href="./projects.html"><b>پروژه ها</b></a>
+            </div>
+            <div class="nav-left">
+                <div class="reg-login-button">
+                    <i class="fa-solid fa-user"></i>
+                    <a href="#"><b>ثبت نام / ورود</b></a>
+                </div>
+            </div>
+        </nav>
+        <section class="slider">
+            <div class="slides">
+                <div class="item active" id="slide1">
+                    <img src="../images/slide1.jpg" alt="">
+                </div>
+                <div class="item " id="slide2">
+                    <img src="../images/slide2.jpg" alt="">
+                </div>
+                <div class="item " id="slide3">
+                    <img src="../images/slide3.jpg" alt="">
+                </div>
+            </div>
+            <div class="buttons">
+                <i onclick="setSlide('slide1','b1',1)" class="fa-solid fa-circle a b-active" id="b1"></i>
+                <i onclick="setSlide('slide2','b2',2)" class="fa-solid fa-circle b" id="b2"></i>
+                <i onclick="setSlide('slide3','b3',3)" class="fa-solid fa-circle c" id="b3"></i>
+            </div>
+        </section>
+    </header>
+    <script src="./js/main.js"></script>
+</body>
+</html>

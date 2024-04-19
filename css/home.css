@@ -1,0 +1,107 @@
+
+header nav{
+    
+    background-color: #99A4BE;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    font-size: 1.2em;
+    border: 2px solid lightblue;
+    border-radius: 0px;
+}
+
+header nav .nav-right{
+    display: flex;
+    align-items: center;
+}
+
+
+
+header nav .nav-right a{
+    size: 30px;
+    color: whitesmoke;
+    padding: 5px 8px;
+    margin: 0px 8px;
+    font-size: 1em;
+}
+
+header nav .nav-left .reg-login-button{
+    border: 2px solid whitesmoke;
+    padding: 5px 8px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+header nav .nav-left .reg-login-button i{
+    margin: 5px;
+    color: whitesmoke;
+}
+
+header nav .nav-left .reg-login-button a{
+    color: whitesmoke;
+    margin: 0px 10px;
+}
+header section .buttons a{
+    color: whitesmoke;
+}
+
+/* slider */
+
+.slider{
+    position: relative;
+    font-size: 1em;
+}
+
+.slider .slides .item{
+    position: relative;
+    display: none;
+}
+
+.slider .slides .item img{
+    width: 100%;
+    
+    
+}
+
+.slider .slides .active{
+    display: block;
+    animation-name: fadeIn;
+    animation-duration: 2s;
+}
+
+.slider .buttons{
+    color: white;
+    
+    
+}
+
+.slider .buttons i{
+    position: absolute;
+    right: 50px;
+    z-index: 1;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.slider .buttons i:hover{
+
+    color: #99A4BE;
+}
+
+.slider .buttons .a{
+    
+    bottom: 55%;
+}
+
+.slider .buttons .b{
+    bottom: 45%;
+}
+
+.slider .buttons .c{
+    bottom: 35%;
+}
+
+.slider .buttons .b-active{
+    color: #99A4BE;
+}
